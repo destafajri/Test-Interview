@@ -1,0 +1,24 @@
+package stepdefs;
+
+public class palindromeDef {
+	
+
+@Given("input a word {string}")
+public void input_a_word(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("check the palindrome")
+public void check_the_palindrome() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("check result {string}")
+public void check_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+}

@@ -1,0 +1,12 @@
+Feature: Palindrome Check
+
+	Scenario Outline: Palindrome Test
+		Given input a word <input>
+		When check the palindrome
+		Then check result <output>
+	
+	Examples:
+	| input 		| output	|
+	|		""			| "true"	|
+	|		"bebeb"	|	"true"	|
+	|		"Kodok"	| "true"	|

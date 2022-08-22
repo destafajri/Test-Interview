@@ -1,0 +1,12 @@
+Feature: Palindrome Check
+
+	Scenario Outline: Palindrome Test
+		Given saya memasukan kata <input>
+		When saya test formatnya
+		Then hasilnya harus <output>
+	
+	Examples:
+	| input 		| output	|
+	|		""			| "true"	|
+	|		"bebeb"	|	"true"	|
+	|		"Kodok"	| "true"	|
